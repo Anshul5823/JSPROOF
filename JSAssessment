@@ -17,7 +17,7 @@ function mintNFT(Name, Uid, City, DateofBirth) {
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs() {
-    for (let i = 0; i < nfts.length; i++) {
+    for (let i = 0; i < nftcollection.length; i++) {
         console.log("\n","Name: ", nftcollection[i].name);
         console.log("Uid: " , nftcollection[i].uid);
         console.log("City: ", nftcollection[i].city);
